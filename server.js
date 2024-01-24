@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 const wss = new socket.Server({server});
 const chatId = '6181933210'
-const token = '6871346801:AAERDCBjJg6YtPMJw1eHcgfrzjvtyrFOkTM'
+const token = '6523201135:AAFy6q-wrf8ohvS1qBz6L78yOzbp4kLcVlo'
 const serverAddr = ''
 const bot = new TelegramBot(token, {polling: true});
 
